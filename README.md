@@ -37,9 +37,11 @@ Finally, I have run the logistic regression for this problem and used the SHAP l
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/3dde5c3d-7fda-40e5-b052-155b458891c3" width="450px">
 
 Annual income and loan amount relationship for 60 months term loans: 
+
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/462c981a-cab3-40d9-adad-338bc3abf756" width="400px">
 
 Annual income and loan amount relationship for 36 months term loans: 
+
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2f833a9f-11e7-4e75-a9fa-08e5046a8c3f" width="400px">
 
 
