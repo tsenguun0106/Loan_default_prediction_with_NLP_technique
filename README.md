@@ -32,6 +32,12 @@ Feature importance from XGBoost model:
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/4969872e-29b4-4b07-95fc-ea2b3c2ee53b" width="350px">
 
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/462c981a-cab3-40d9-adad-338bc3abf756" width="350px">
+
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2f833a9f-11e7-4e75-a9fa-08e5046a8c3f" width="350px">
+
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/3dde5c3d-7fda-40e5-b052-155b458891c3" width="350px">
+
 ## NLP modeling using the pre-trained embedding vectors from the open-source.
 
 
