@@ -10,6 +10,8 @@ When the loan was not fully paid or defaulted, the target variable is set as 1. 
 
 ![image](https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/033f8105-7f4d-4287-bc39-88ef21dc5f0e|width=80px)
 
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/033f8105-7f4d-4287-bc39-88ef21dc5f0e" width="800px">
+
 Numerical variables: 
 - Loan amount
 - Term (loan term/duration)
