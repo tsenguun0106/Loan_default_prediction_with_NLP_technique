@@ -22,11 +22,13 @@ Numerical variables:
 Employment length and loan term values are transformed into dummy variables to capture more complex impacts from these factors on the loan default problem. 
 
 I have fit the random forest model with 200 trees for this loan default classification problem. 
-Feature improtance from Random Forest model: 
+Feature importance from Random Forest model: 
+
 ![image](https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/f8875bd2-9517-41c5-a492-9d233ea4e6e1)
 
 Also, I have fit the XGBoost model with 150 trees for this problem. 
-Feature improtance from XGBoost model: 
+Feature importance from XGBoost model: 
+
 ![image](https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/4969872e-29b4-4b07-95fc-ea2b3c2ee53b)
 
 
