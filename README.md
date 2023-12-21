@@ -4,7 +4,7 @@ In this analysis, we predict the loan application default probability based on n
 
 ## First we conduct some EDA and simple ML model analysis. 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/14598488-f545-4ca3-9da9-cfb51a89b3c3" width="800px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/14598488-f545-4ca3-9da9-cfb51a89b3c3" width="600px">
 
 When the loan was not fully paid or defaulted, the target variable is set as 1. And when the loan was fully paid out, the target variable value is set as 0. 
 
@@ -18,7 +18,7 @@ Numerical variables:
 - Annual income
 - Income source verification status
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/46355cfa-351d-4c6e-84d0-8d54ac11f8e7" width="350px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/46355cfa-351d-4c6e-84d0-8d54ac11f8e7" width="400px">
 
 Employment length and loan term values are transformed into dummy variables to capture more complex impacts from these factors on the loan default problem. 
 
