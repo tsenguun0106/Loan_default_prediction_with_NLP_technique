@@ -73,10 +73,10 @@ I used the PyTorch to conduct the NLP model training:
 I use the numerical features and the text feature to train the model:  
 The list of numerical features: 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/6bbd984f-4531-4dac-b302-533f840ffc88" width="350px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/6bbd984f-4531-4dac-b302-533f840ffc88" width="300px">
 
 The example for the text loan request description from one borrower: 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="350px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="450px">
 
    
