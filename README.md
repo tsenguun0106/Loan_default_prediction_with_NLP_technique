@@ -77,7 +77,7 @@ The list of numerical features:
 
 The example for the text loan request description from one borrower: 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/f8f57d01-67a1-40a2-9c3f-1cd761888623" width="650px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="650px">
 
 Model architecture: 
 1. 32 hidden units and 2 hidden layers for the GRU model (RNN)
@@ -89,7 +89,7 @@ Model architecture:
 7. This sigmoid function will predict the final output regarding the loan defaulting or not.
 8. Learning parameters are the GRU model parameters for text data, logistic regression parameters for numerical data, and parameters for the final sigmoid layer to efficiently combine the GRU and logistic regression models for the final prediction process. 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="650px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/f8f57d01-67a1-40a2-9c3f-1cd761888623" width="650px">
 
 Model architecture displayed: 
 
