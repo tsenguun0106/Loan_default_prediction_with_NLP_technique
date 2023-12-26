@@ -95,4 +95,11 @@ Model architecture displayed:
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2fa9b04e-bee7-4513-9c75-c67ff30380ad" width="350px">
 
-   
+Model training process:
+1. Batch size is 32.
+2. 15% of data is used fro the validation.
+3. Adam optimizer is used and model is trained for 10 epochs.
+4. The Binary Cross Entropy function is used as the loss function.
+
+# Summary: 
+The model accuracy based on the validation data is 82.24%. The sample size is only 28124. The model still can learn some insights from the numerical features and text data. However, my conclusion is that more data is needed to train the deep learning model for this loan defaulting prediction problem. In this demo, I demonstrated how numerical features such as income and age data can be combined with text data for predicting the loan default probability of a borrower. This use-case is especially useful for the lending companies to automate their loan decision making process. 
