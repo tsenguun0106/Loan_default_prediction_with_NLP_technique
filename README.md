@@ -79,4 +79,16 @@ The example for the text loan request description from one borrower:
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="650px">
 
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2fa9b04e-bee7-4513-9c75-c67ff30380ad" width="350px">
+
+
+Model architecture: 
+1. 32 hidden units and 2 hidden layers for the GRU model (RNN)
+2. Initial embedding vectors for words are extracted from the GLOVE open-source NLP model and the embedding vector dimension is 100 (for each word in vocabulary).
+3. The dropout probability for the GRU model is 0.2.
+4. 
+
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/f8f57d01-67a1-40a2-9c3f-1cd761888623" width="650px">
+
+
    
