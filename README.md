@@ -62,7 +62,7 @@ The above two graphs illustrate that the maximum loan amount and the annual inco
 # NLP modeling using the pre-trained embedding vectors.
 (Notebook used for this analysis: Loan_app_NLP_PyTorch_RNN_pretrained_embeddings_with_other_features_ver3.ipynb)
 
-## Conduct the text data cleaning: 
+## Conducting the text data cleaning: 
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/0647e1c7-7f08-43b0-8bb1-fb00ded45a16" width="350px">
 
@@ -89,7 +89,7 @@ The example for the text loan request description from one borrower:
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="650px">
 
-Model architecture: 
+**Model architecture:** 
 1. 32 hidden units and 2 hidden layers for the GRU model (RNN)
 2. Initial embedding vectors for words are extracted from the GLOVE open-source NLP model and the embedding vector dimension is 100 (for each word in vocabulary).
 3. The dropout probability for the GRU model is 0.2.
@@ -105,11 +105,11 @@ Model architecture displayed:
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2fa9b04e-bee7-4513-9c75-c67ff30380ad" width="350px">
 
-Model training process:
+**Model training process:**
 1. Batch size is 32.
-2. 15% of data is used fro the validation.
-3. Adam optimizer is used and model is trained for 10 epochs.
+2. 15% of data is used for the validation.
+3. Adam optimizer is used and the model is trained for 10 epochs.
 4. The Binary Cross Entropy function is used as the loss function.
 
 # Summary: 
-The model accuracy based on the validation data is 82.24%. The sample size is only 28124. The model still can learn some insights from the numerical features and text data. However, my conclusion is that more data is needed to train the deep learning model for this loan defaulting prediction problem. In this demo, I demonstrated how numerical features such as income and age data can be combined with text data for predicting the loan default probability of a borrower. This use-case is especially useful for the lending companies to automate their loan decision making process. 
+The model accuracy based on the validation data is 82.24%. The sample size is only 28124. The model still can learn some insights from the numerical features and text data. However, my conclusion is that more data is needed to train the deep learning model for this loan defaulting prediction problem. In this demo, I demonstrated how numerical features such as income and age data can be combined with text data for predicting the loan default probability of a borrower. This use case is especially useful for lending companies to automate their loan decision-making process. 
