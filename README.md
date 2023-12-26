@@ -77,6 +77,6 @@ The list of numerical features:
 
 The example for the text loan request description from one borrower: 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="550px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="650px">
 
    
