@@ -50,9 +50,9 @@ Annual income and loan amount relationship for 36 months term loans:
 
 
 
-## NLP modeling using the pre-trained embedding vectors.
+# NLP modeling using the pre-trained embedding vectors.
 
-# Conduct the text data cleaning: 
+## Conduct the text data cleaning: 
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/0647e1c7-7f08-43b0-8bb1-fb00ded45a16" width="350px">
 
@@ -62,7 +62,7 @@ Annual income and loan amount relationship for 36 months term loans:
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/4060cdf2-b9fa-4430-b73a-7c3ae4c56f0a" width="350px">
 
-# Using the pre-trained embedding vectors for words from the GLOVE oper-source NLP model: 
+## Using the pre-trained embedding vectors for words from the GLOVE oper-source NLP model: 
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/ae9b8fbb-0e51-4323-923a-a111aad828d3" width="350px">
 
@@ -70,6 +70,13 @@ I used the PyTorch to conduct the NLP model training:
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c7b04adc-496c-4ab5-9453-52da966601f8" width="350px">
 
+I use the numerical features and the text feature to train the model:  
+The list of numerical features: 
 
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/6bbd984f-4531-4dac-b302-533f840ffc88" width="350px">
+
+The example for the text loan request description from one borrower: 
+
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="350px">
 
    
