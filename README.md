@@ -40,15 +40,22 @@ Finally, I have run the logistic regression for this problem and used the SHAP l
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/3dde5c3d-7fda-40e5-b052-155b458891c3" width="450px">
 
-Annual income and loan amount relationship for 60 months term loans: 
+**Feature importance result:**
+1. Both the RF and XGboost models capture that the interest rate, annual income, and loan length are important factors for predicting the loan default rate.
+2. XGboost also indicates that the employment length of a borrower can be informative. However, the RF model does not suggest the same.
+3. Also, both models explain that the loan amount is not very informative about the loan default rate which is quite different from the expectation.
+4. The SHAP method demonstrates a similar feature importance result. However, the SHAP method is pushing that the loan amount is very informative about the loan default rate, which is quite a different result from the previous two models. 
+
+
+Annual income and loan amount relationship for 60 months term loans (x-axis is the annual income and y-axis is the loan amount): 
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/462c981a-cab3-40d9-adad-338bc3abf756" width="400px">
 
-Annual income and loan amount relationship for 36 months term loans: 
+Annual income and loan amount relationship for 36 months term loans (x-axis is the annual income and y-axis is the loan amount): 
 
 <img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2f833a9f-11e7-4e75-a9fa-08e5046a8c3f" width="400px">
 
-
+The above two graphs illustrate that the maximum loan amount and the annual income level have a linear upward relationship for the annual income values up to 70K USD. In other words, borrowers with up to 70K USD annual income were able to borrow up to around half of their annual earnings. 
 
 
 
