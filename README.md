@@ -77,18 +77,22 @@ The list of numerical features:
 
 The example for the text loan request description from one borrower: 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="650px">
-
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2fa9b04e-bee7-4513-9c75-c67ff30380ad" width="350px">
-
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/f8f57d01-67a1-40a2-9c3f-1cd761888623" width="650px">
 
 Model architecture: 
 1. 32 hidden units and 2 hidden layers for the GRU model (RNN)
 2. Initial embedding vectors for words are extracted from the GLOVE open-source NLP model and the embedding vector dimension is 100 (for each word in vocabulary).
 3. The dropout probability for the GRU model is 0.2.
-4. 
+4. Text data is trained through the GRU model and the GRU model output is combined by the linear layer at the end. 
+5. Numerical features are trained through the logistic regression model.
+6. The Sigmoid function is applied after concatenating the outputs from the GRU model for text data and the logistic regression model for the numerical data.
+7. This sigmoid function will predict the final output regarding the loan defaulting or not.
+8. Learning parameters are the GRU model parameters for text data, logistic regression parameters for numerical data, and parameters for the final sigmoid layer to efficiently combine the GRU and logistic regression models for the final prediction process. 
 
-<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/f8f57d01-67a1-40a2-9c3f-1cd761888623" width="650px">
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c53b16de-08f0-4e63-b142-31b0df3e93aa" width="650px">
 
+Model architecture displayed: 
+
+<img src="https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/2fa9b04e-bee7-4513-9c75-c67ff30380ad" width="350px">
 
    
