@@ -50,8 +50,25 @@ Annual income and loan amount relationship for 36 months term loans:
 
 
 
-## NLP modeling using the pre-trained embedding vectors from the open-source.
+## NLP modeling using the pre-trained embedding vectors.
 
+# Conduct the text data cleaning: 
+
+![image](https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/0647e1c7-7f08-43b0-8bb1-fb00ded45a16)
+
+1. Sorting the words using their frequencies
+2. Adding padding and unknown to the tokens list
+3. Creating word-to-index and index-to-word mapping dictionaries
+
+![image](https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/4060cdf2-b9fa-4430-b73a-7c3ae4c56f0a)
+
+# Using the pre-trained embedding vectors for words from the GLOVE oper-source NLP model: 
+
+![image](https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/ae9b8fbb-0e51-4323-923a-a111aad828d3)
+
+I used the PyTorch to conduct the NLP model training: 
+
+![image](https://github.com/tsenguun0106/Loan_default_prediction_with_NLP_technique/assets/60633314/c7b04adc-496c-4ab5-9453-52da966601f8)
 
 
 
