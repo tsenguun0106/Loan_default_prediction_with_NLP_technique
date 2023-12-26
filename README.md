@@ -60,6 +60,7 @@ The above two graphs illustrate that the maximum loan amount and the annual inco
 
 
 # NLP modeling using the pre-trained embedding vectors.
+(Notebook used for this analysis: Loan_app_NLP_PyTorch_RNN_pretrained_embeddings_with_other_features_ver3.ipynb)
 
 ## Conduct the text data cleaning: 
 
