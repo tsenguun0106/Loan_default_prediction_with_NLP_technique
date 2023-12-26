@@ -2,6 +2,8 @@
 
 In this analysis, we predict the loan application default probability based on numerical information such as income, etc., and the loan application description (text data). 
 
+**Problem:** Lending companies need to decide whether to grant the loan to a borrower using the borrower's numerical data such as income, employment length, age, etc., and the borrower's loan application description (text data). 
+
 ## First we conduct some EDA and simple ML model analysis. 
 
 (Notebook used for this analysis: Loan_application_data_analysis_Dec_9.ipynb)
